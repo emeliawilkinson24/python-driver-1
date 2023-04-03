@@ -60,7 +60,7 @@ class TestModel(unittest.TestCase):
 
         test_keywords_as_names tests that CQL keywords are properly and automatically quoted in cqlengine. It creates
         a keyspace, keyspace, which should be automatically quoted to "keyspace" in CQL. It then creates a table, table,
-        which should also be automatically quoted to "table". It then verfies that operations can be done on the
+        which should also be automatically quoted to "table". It then verifies that operations can be done on the
         "keyspace"."table" which has been created. It also verifies that table alternations work and operations can be
         performed on the altered table.
 
